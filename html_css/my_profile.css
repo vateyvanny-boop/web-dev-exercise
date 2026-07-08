@@ -1,0 +1,37 @@
+body{
+  font-family:"Inter", sans-serif;
+  background-color: #000000; 
+}
+
+.profile-area {
+ max-width: 500px;
+ margin: 30px auto;
+ background-color: #f7f6fb;
+ padding: 20px;
+ border-radius: 0px;
+ text-align: center;
+ box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+}
+
+.profile-img {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 0%;
+}
+
+dl {
+   margin-top: 20px;
+}
+
+dt {
+  font-weight: 900;
+  margin-top: 10px;
+  collor: #2c3e50;
+}
+
+dd {
+  margin: 0 0 10px 20px;
+  color: #555;
+}
