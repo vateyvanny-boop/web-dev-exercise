@@ -1,0 +1,37 @@
+body{
+  font-family:"Inter", sans-serif;
+  background-color:#B5BAFF ;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  background: #FBEFEF;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: groove;
+  color: #5C6F2B;
+
+}
+thead {
+  background-color: #89D7B7;
+  color: #093FB4;
+}
+
+thead th {
+  border:groove blue;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #A8DF8E;
+}
+
+tbody tr:hover {
+  background-color: #FF9A86;
+}
