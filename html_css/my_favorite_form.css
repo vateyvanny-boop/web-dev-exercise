@@ -1,0 +1,72 @@
+body {
+	background-color: #FBF3D5;
+}
+.container {
+	max-width: 720px;
+	margin: 56px auto;
+	padding: 0 16px;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+button {
+	padding: 12px 18px;
+	border-radius: 999px;
+	border: 1px solid transparent;
+	font-weight: 600;
+	font-size: 15px;
+	background: #FFEBD3;
+	color: #67A2C5;
+}
+
+button.secondary {
+	background: #FAFFC4;
+	border-color: #DC143C;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+	border: 1px solid #722323;
+	border-radius: 12px;
+}
+fieldset {
+	border: 1px solid #093FB4;
+	border-radius: 12px;
+}
+
+label, legend {
+	color: #85586F;
+	font-weight: 600;
+}
+
+.actions {
+	display: flex;
+	gap: 12px;
+	justify-content: flex-end;
+	margin-top: 8px;
+}
+
+.hint {
+	color: gray;
+	font-size: 13px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 3px solid #FFE97D;
+}
+
+button:hover {
+	transform: translateY(-4px);
+}
+
+button:active {
+	transform: translateY(0);
+}
