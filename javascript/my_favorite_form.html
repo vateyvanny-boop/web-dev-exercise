@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="km">
+ <head>
+  <meta charset="UTS-8">
+  <title>Add A New Place </title>
+  <link rel="stylesheet" href="my_favorite_form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <script src="my_favorite_form.js"></script>
+    <main class="container">
+        <h1>★★★Add A New Place★★★</h1>
+        <form action="#" id="travelForm"method="post" class="card" novalidate>
+            <div class="form-row">
+                <label for="place">Place</label>
+                <span id="errorplace" class="error"></span>
+                <input type="text" name="Place" id="place" required placeholder="Borko" />
+                <small class="hint ">please enter Place</small>
+                
+            </div>
+            <div class="form-row">
+                <label for="Reason">Reason</label>
+                <textarea id="Reason" name="Reason" rows="5" placeholder="please enter Reason" required></textarea>
+                <span id="ReasonError" class="error"></span>
+                
+            </div>
+
+
+            <fieldset class="form-row">
+                <legend>Best season</legend>
+                <div class="radios">
+                    <label><input type="radio" name="Best-season"value="rainy"/> rainy</label>
+                    <label><input type="radio" name="Best-season"value="summer"/> summer</label>
+                    
+                </div>
+                
+            </fieldset>
+            <span id="bestseasonError"class="error"></span>
+            <div class="form-row">
+                <label for="province">province</label>
+                <select id="province" name="province"required>
+                <option value="" selected disabled>choose a province</option>
+                <option>Takev</option>
+                <option>kompot</option>
+                <option>koh kong</option>
+                <option>Siem reap</option> 
+                    
+                </select>
+                <span id="provinceError" class="error"></span>
+                
+            </div>
+
+            <div class="form-row">
+                <label for="input-date">input date</label>
+                <input type="date" id="input-date"name="input-date" required/>
+                <span id="dateError" class="error"></span>
+            </div>
+            <div class="actions">
+                <button type="submit">save</button>
+                <button type="reset"class="secondary">clear</button>
+                
+            </div>
+        </form>
+    </main>
+</body>
+ </html>
